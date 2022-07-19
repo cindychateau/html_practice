@@ -89,3 +89,24 @@ input, textarea { /*for both inputs and textareas*/
     background-repeat: no-repeat;
 }
 
+#box_model {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+
+    padding: 25px; 
+    margin: 10px auto;
+    border: 3px solid black;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: black;
+    color: purple;
+    padding: 25px;
+}
